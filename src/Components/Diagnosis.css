@@ -1,0 +1,5 @@
+.diag-card {
+    border-radius: var(--br-md);
+    border: 2px solid var(--border);
+    padding: 1.25rem;
+}

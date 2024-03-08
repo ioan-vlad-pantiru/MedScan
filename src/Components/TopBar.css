@@ -1,0 +1,21 @@
+.topbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topbar .divider-horizontal {
+    margin: var(--p-md) 0;
+}
+.topbar h1 {
+    font-weight: bold;
+}
+.topbar .user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    gap: 1rem;
+}
+.topbar img {
+    height: 2rem;
+}

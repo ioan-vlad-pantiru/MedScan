@@ -1,0 +1,53 @@
+
+.step-0 .table {
+    height: calc(100vh - 91.33px - 4*32px - 22px - 2*var(--p-lg) - var(--size-lg) - 2.5rem);
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid var(--black);
+}
+.step-0 .table-header {
+    border: 1px solid var(--black);
+}
+.step-0 .tr {
+    display: flex;
+    flex-direction: row;
+}
+.step-0 .table-header .th {
+    border: 1px solid var(--black);
+    padding: 0.5rem 0.5rem;
+}
+
+.step-0 .td {
+    border: 1px solid var(--black);
+    padding: 0.5rem 0.5rem;
+}
+
+.header_table{
+    padding: 4px;
+    background-color: var(--background);
+}
+
+.input-field-container {
+    padding-bottom: 5px;
+}
+
+.page-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: var(--p-lg);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.step3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

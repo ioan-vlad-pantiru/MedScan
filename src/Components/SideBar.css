@@ -1,0 +1,25 @@
+.sidebar {
+    height: calc(100vh - 2*var(--p-lg));
+    width: 250px;
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--p-lg);
+
+    padding: var(--p-lg);
+    border-radius: 0 var(--br-lg) var(--br-lg) 0;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+}
+
+.logo {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--p-md);
+}
