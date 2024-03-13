@@ -1,21 +1,53 @@
-# InfinityDesk - FrontEnd
-Hermes Hackathon 2023 Project - Team Autobotii FrontEnd
 
-## Project Purpose and Utility:
+# <Project Name>
 
-The InfinityDesk platform provides endless opportunities for progress for employees in various fields through a "peer-to-peer" learning method. Additionally, to ensure a meaningful contribution from all individuals involved in the community created on the platform, a type of virtual credits (Infinity Tokens) is introduced. With these credits, you can acquire training sessions in your chosen field, and the person offering those lessons is redeemed through these credits, which they can then use to acquire other valuable knowledge.
+## Overview
+<Project Name> is a cutting-edge web application developed during the Hermes Hackathon, aimed at transforming the workflow of medical professionals. Utilizing a robust stack comprising React, HTML, CSS, JavaScript this application integrates advanced machine learning algorithms and various APIs to enhance diagnostic accuracy and patient care efficiency.
 
-To enable users to obtain credits before teaching others, there are three options:
+## Features
+- **Diagnostic Support**: Leverages machine learning to provide instant diagnostic suggestions, helping medical professionals make more accurate decisions.
+- **API Integration**: Seamlessly integrates with existing medical APIs for up-to-date information and patient data management.
+- **User-Friendly Interface**: Designed with React and HTML, offering an intuitive and responsive user experience tailored for medical professionals.
+- **Data Visualization**: Features comprehensive visualization tools to represent patient data, making it easier to analyze trends and conditions.
+- **Security and Privacy**: Prioritizes patient confidentiality and data security, ensuring compliance with healthcare regulations.
 
--Upon creating an account on the platform, users receive a certain number of free credits.
+## Getting Started
 
--Users can post materials, text/video courses, papers, etc., which will be evaluated by platform administrators, and they will receive a predetermined number of credits.
+### Prerequisites
+Before you begin, ensure you have the following installed:
+- Node.js and npm (https://nodejs.org/)
 
--Credits can be purchased at a cost.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <Repository URL>
+   cd <Project Directory>
+   ```
 
--The motivation to create this platform stems from the method by which employees evolve within a company. They learn from each other, but the disadvantage is having a limited circle of people to communicate with. Through the InfinityDesk platform, specialists from any field and any company are readily available to help you develop skills you already possess or even learn completely new ones.
+2. Navigate to the client directory and install the npm packages:
+   ```bash
+   cd client
+   npm install
+   ```
 
-## Main Technologies Used:
--HTML, CSS, JavaScript, git, Bootstrap
+3. In a new terminal, start the React frontend application:
+   ```bash
+   cd client
+   npm start
+   ```
 
--Possible: Python (Flask / Django), React, Sass, SQL / MongoDB
+4. The application should now be running on [localhost:3000](http://localhost:3000).
+
+## Usage
+- Navigate to `<URL>` to access <Project Name>.
+- Log in with your professional credentials to view the dashboard.
+- Utilize the diagnostic support feature by entering patient symptoms and data.
+- Explore patient data and analytics through the visualization tools.
+
+
+## Acknowledgments
+- Special thanks to the Hermes Hackathon organizers and mentors.
+- API data courtesy of [RapidAPI].
+
+---
+
