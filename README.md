@@ -1,8 +1,8 @@
 
-# <Project Name>
+# <MedScan>
 
 ## Overview
-<Project Name> is a cutting-edge web application developed during the Hermes Hackathon, aimed at transforming the workflow of medical professionals. Utilizing a robust stack comprising React, HTML, CSS, JavaScript this application integrates advanced machine learning algorithms and various APIs to enhance diagnostic accuracy and patient care efficiency.
+<MedScan> is a cutting-edge web application developed during the Hermes Hackathon, aimed at transforming the workflow of medical professionals. Utilizing a robust stack comprising React, HTML, CSS, JavaScript this application integrates advanced machine learning algorithms and various APIs to enhance diagnostic accuracy and patient care efficiency.
 
 ## Features
 - **Diagnostic Support**: Leverages machine learning to provide instant diagnostic suggestions, helping medical professionals make more accurate decisions.
@@ -39,7 +39,7 @@ Before you begin, ensure you have the following installed:
 4. The application should now be running on [localhost:3000](http://localhost:3000).
 
 ## Usage
-- Navigate to `<URL>` to access <Project Name>.
+- Navigate to `<URL>` to access <MedScan>.
 - Log in with your professional credentials to view the dashboard.
 - Utilize the diagnostic support feature by entering patient symptoms and data.
 - Explore patient data and analytics through the visualization tools.
