@@ -3,5 +3,6 @@ services:
     build: .
     labels:
     - com.yourdomain.project.id=6887b9547b777ab4272be7c8
+    - com.yourdomain.project.id=6887bc7bbca9835469a30f7c
     ports:
     - - '80'
