@@ -9,42 +9,33 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # ENVIRONMENT SETUP
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      # DEPENDENCY CACHING
       - name: Cache npm dependencies
         uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
 
-      # LINTING STAGE
       - name: Run Linter
         run: npm run lint
         # QUALITY GATE: Fails on lint violations
 
-      # BUILD STAGE
-      - name: Install dependencies
-        run: npm install
-
       - name: Build project
-        run: npm run build
+        run: npm install && npm run build
         # QUALITY GATE: Fails on build errors
 
-      # TEST STAGE
       - name: Run tests
         run: npm test
         # QUALITY GATE: Fails on test failures
 
-      # DEPLOYMENT STAGE
       - name: Build Docker image
-        run: docker build -t cope-app .
+        run: docker build -t my-app .
+        # Build Docker image for deployment
 
       - name: Push Docker image
-        run: |
-          echo "${{ secrets.AZURE_SECRET_KEY }}" | docker login <your-docker-registry> --username <your-username> --password-stdin
-          docker push cope-app
+        run: echo "${{ secrets.AZURE_SECRET_KEY }}" | docker login <your-docker-registry> --username <your-username> --password-stdin && docker push my-app
+        # Push Docker image to registry for deployment
